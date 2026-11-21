@@ -3,6 +3,7 @@
 Disc images for the PlayTab PS1 site, one folder per game named with its initials.
 Each disc is cut into 8 MiB pieces (`disc/00000.bin`, `00001.bin`, …) with `disc/disc.json`
 (`name`, `size`, `piece`, `pieces`); the page downloads the pieces in order and joins them.
+`cover.jpg` is the game's box art, taken from its IGDB entry (PlayStation game only).
 
 | Folder | Game | Serial |
 |---|---|---|
